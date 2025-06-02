@@ -1,5 +1,5 @@
 // Declaración de variables
-let numeroEntero = 25;
+let anioNacimiento = 2008;
 let numeroDecimal = 3.14;
 let cadenaTexto = "Hola, mundo";
 let valorBooleano = true;
@@ -10,38 +10,38 @@ let valorNulo = null;
 const mes = "Junio";
 
 // Funciones para mostrar cada valor con alert()
-function mostrarNumeroEntero() {
-  alert("Número entero: " + numeroEntero);
+function mostraranioNacimiento() {
+    alert("Año de nacimiento: " + anioNacimiento);
 }
 
 function mostrarNumeroDecimal() {
-  alert("Número decimal: " + numeroDecimal);
+    alert("Número decimal: " + numeroDecimal);
 }
 
 function mostrarCadenaTexto() {
-  alert("Cadena de texto: " + cadenaTexto);
+    alert("Cadena de texto: " + cadenaTexto);
 }
 
 function mostrarBooleano() {
-  alert("Valor booleano: " + valorBooleano);
+    alert("Valor booleano: " + valorBooleano);
 }
 
 function mostrarArreglo() {
-  alert("Arreglo de números: " + arregloNumeros);
+    alert("Arreglo de números: " + arregloNumeros);
 }
 
 function mostrarObjeto() {
-  alert("Objeto persona: " + JSON.stringify(objetoPersona));
+    alert("Objeto persona: " + JSON.stringify(objetoPersona));
 }
 
 function mostrarIndefinido() {
-  alert("Valor indefinido: " + valorIndefinido);
+    alert("Valor indefinido: " + valorIndefinido);
 }
 
 function mostrarNulo() {
-  alert("Valor nulo: " + valorNulo);
+    alert("Valor nulo: " + valorNulo);
 }
 
 function mostrarConstante() {
-  alert("Constante mes: " + mes);
+    alert("Constante mes: " + mes);
 }
